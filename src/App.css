@@ -1,0 +1,47 @@
+.app {
+    max-width: 1400px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    background-color: #05292e;
+    min-height: 100vh;
+    color: white;
+    box-shadow: 0.2em 0.2em 1em #0009;
+}
+
+.app__header {
+    height: 10vh;
+}
+
+.app__title {
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+    margin-top: 245px;
+    color: #05292e;
+}
+
+.app__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.app__input {
+    padding: 0.6em 1.2em;
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.app__btn {
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 0 1em;
+    background-color: rgb(125, 199, 14);
+    color: white;
+    cursor: pointer;
+}
+.app__btn:hover {
+    filter: brightness(0.8);
+}
+
+.app__error {
+    text-align: center;
+}
